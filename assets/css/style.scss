@@ -3,34 +3,50 @@
 // brand values
 $brand-font-color:#777777;
 $brand-header-bg-color:#ffffff;
+$brand-color: #4aaaa5;
 $brand-font-stack: Arial, "Helvetica Neue", Helvetica, sans-serif;
 $brand-font-header: Georgia, Times, "Times New Roman", serif;
-$brand-nav-height: 90px;
+$brand-header-height: 10%;
+// $brand-logo-height: 50%;
 
 
 body {
   background-image: url("../images/circles-light.png");
   font-family: $brand-font-stack;
-
+  header {
+    border-style: solid;
+    border-width: 0 0 2% 0;
+    border-color: #cccccc;
+    height: $brand-header-height;
+  }
   h1,h2,h3 {
     font-family: $brand-font-header;
   }
-  .brand-bg-color {
+  .brand-custom {
     background-color: $brand-header-bg-color;
+    padding: 0;
   }
-  .brand-nav-height {
-    height: 90px;
-  }
+  /*
+.brand-nav-height {
+    // height: $brand-nav-height;
+  height: 50%;
+  } */
   .brand-logo {
-      width: 250px;
-      height: 90px;
+      // width: 250px;
+      // height: 90px;
+      // height: $brand-logo-height;
       font-family: $brand-font-header;
-      font-size: 30px;
+      font-size: 200%;
       font-weight: 700;
-      line-height: 90px;
+      margin-left: 20%;
+      // line-height: $brand-nav-height;
+     // line-height: 15%;
+   //  line-height: 100%;
       color: #fff;
       text-align: center;
-      text-decoration: none;
-      background: #4aaaa5;
+    //  text-decoration: none;
+      background: $brand-color;
+      margin: 0;
+      padding: 1% 0;
   }
 }
