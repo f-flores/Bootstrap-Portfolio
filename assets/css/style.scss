@@ -1,0 +1,36 @@
+/* stylesheet file*/
+
+// brand values
+$brand-font-color:#777777;
+$brand-header-bg-color:#ffffff;
+$brand-font-stack: Arial, "Helvetica Neue", Helvetica, sans-serif;
+$brand-font-header: Georgia, Times, "Times New Roman", serif;
+$brand-nav-height: 90px;
+
+
+body {
+  background-image: url("../images/circles-light.png");
+  font-family: $brand-font-stack;
+
+  h1,h2,h3 {
+    font-family: $brand-font-header;
+  }
+  .brand-bg-color {
+    background-color: $brand-header-bg-color;
+  }
+  .brand-nav-height {
+    height: 90px;
+  }
+  .brand-logo {
+      width: 250px;
+      height: 90px;
+      font-family: $brand-font-header;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 90px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      background: #4aaaa5;
+  }
+}

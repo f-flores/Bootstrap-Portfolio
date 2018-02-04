@@ -1,0 +1,21 @@
+/* stylesheet file*/
+body {
+  background-image: url("../images/circles-light.png");
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+  body h1, body h2, body h3 {
+    font-family: Georgia, Times, "Times New Roman", serif; }
+  body .brand-bg-color {
+    background-color: #ffffff; }
+  body .brand-nav-height {
+    height: 90px; }
+  body .brand-logo {
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5; }

@@ -1,7 +1,6 @@
 # Bootstrap-Portfolio
+#### Fabian Flores
 
-####Fabian Flores
-
-##Description
+## Description
 
 This project will create a portfolio layout using the Bootstrap CSS Framework. 
