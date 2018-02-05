@@ -9,28 +9,28 @@
   <title>About | Contact</title>
 </head>
 <body>
-    <header class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light brand-custom">
-            <div class="container">
-              <a href="index.html" class="navbar-header brand-logo col-md-3 col-sm-4 col-xs-6">Fabian Flores</a>
-            
-              <ul class="navbar-nav justify-content-end col-md-4 col-sm-6 col-xs-6">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                  <span class="sr-only">(current)</span>
-                </li>
-              </ul>
-    
-          </div>
-    
-        </nav>
-      </header>
+  <header class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light brand-custom">
+          <div class="container">
+            <a href="index.html" class="navbar-header brand-logo col-md-3 col-sm-4 col-xs-6">Fabian Flores</a>
+          
+            <ul class="navbar-nav justify-content-end col-md-4 col-sm-6 col-xs-6">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contact</a>
+                <span class="sr-only">(current)</span>
+              </li>
+            </ul>
+  
+        </div>
+  
+      </nav>
+    </header>
 
   <div class="container">
   
@@ -38,6 +38,22 @@
       <section class="card col-md-6 col-sm-12 col-xs-12 rounded">
         <div class="card-body">
           <h2 class="card-title">Contact</h2>
+          <form>
+            <div class="form-group">
+                <label for="exampleNameInput">Name:</label>
+                <input type="text" class="form-control" id="exampleNameInput" aria-describedby="emailHelp" placeholder="John Smith">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleTextarea">Message:</label>
+                <textarea class="form-control" id="exampleTextArea" maxlength="600">
+                </textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
       </section>
   
 
@@ -47,19 +63,19 @@
             <h2 class="card-title">Connect With Me</h2>
   
             <div class="row">
-              <div class="col-md-3 ml-auto">
+              <div class="col-md-3 ml-auto col-sm-12 col-xs-12">
                 <a href="https://github.com/f-flores" target="_blank">
                   <img class="image-fluid" alt="Github Logo" src="assets/images/github_logo.png">
                 </a>
               </div>
   
-              <div class="col-md-4 ml-auto">
+              <div class="col-md-4 ml-auto col-sm-12 col-xs-12">
                 <a href="https://www.linkedin.com/in/francisco-f-flores/" target="_blank">
                   <img class="img-fluid" alt="LinkedIn Logo" src="assets/images/linkedin_logo.png">
                 </a>
               </div>
   
-              <div class="col-md-3 mr-auto">
+              <div class="col-md-3 mr-auto col-sm-12 col-xs-12">
                 <a href="https://stackoverflow.com/users/9150518/f-flores" target="_blank">
                   <img class="image-fluid" alt="StackOverflow Logo" src="assets/images/stackoverflow_logo.png">
                 </a>

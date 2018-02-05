@@ -26,6 +26,8 @@ body {
     text-align: justify;
     line-height: 1.75;
     margin: 0 0 2px 0; }
+  body a img {
+    margin: 1% 0; }
   body footer {
     border: none; }
   body .profile-img {
