@@ -2,11 +2,24 @@
 body {
   background-image: url("../images/circles-light.png");
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  /*   a 
+  {
+    img 
+    {
+      margin: 1% 0;
+    }
+  } */
+  /*   .profile-img 
+  {
+    float: left;
+    margin: 2% 2% 2% 2%;
+  } */
   /*   .profile-img
   {
     max-width: 90%;
     height: auto;
-  } */ }
+  } */
+  /* caption_text styles the "text over image" caption on top of each portfolio image */ }
   body header {
     border-style: solid;
     border-width: 0px 0px 2px 0px;
@@ -17,8 +30,8 @@ body {
   body h2, body h3 {
     box-sizing: border-box;
     width: 100%;
-    height: 8%;
-    padding: 1%;
+    height: 7%;
+    padding: 0.5%;
     border-style: solid;
     border-color: #cccccc;
     border-width: 0 0 2px 0; }
@@ -26,13 +39,8 @@ body {
     text-align: justify;
     line-height: 1.75;
     margin: 0 0 2px 0; }
-  body a img {
-    margin: 1% 0; }
   body footer {
     border: none; }
-  body .profile-img {
-    float: left;
-    margin: 2% 2% 2% 2%; }
   body .brand-custom {
     background-color: #ffffff;
     padding: 0; }
@@ -44,7 +52,7 @@ body {
     text-align: center;
     background: #4aaaa5;
     margin: 0;
-    padding: 2% 2%; }
+    padding: 1.5% 1.5%; }
   body .row-spacer {
     margin: 20px 0; }
   body .card-body h2 {
@@ -67,6 +75,27 @@ body {
       line-height: 1;
       padding: 25px;
       margin: 0; }
+  body .caption-vspacer {
+    top: 60%; }
+  body .caption-text {
+    /* position: absolute;
+    z-index: 2;  have caption text appear over the image 
+      left: 1%;
+      margin: 0 1 auto;
+      text-align: center;
+      top: 70%; */
+    /*    position: absolute;
+      top: 60%;
+      font-size: 100%;*/
+    /*       margin: 0;
+      padding: 2% 2%; */
+    /*    width: 89%;
+      height: 15%;
+      padding: 10px;
+      font-size: 1.2em;*/
+    color: #4aaaa5;
+    font-weight: bold;
+    text-shadow: 1px 1px black; }
   body #media_links {
     position: relative;
     left: 20px;
