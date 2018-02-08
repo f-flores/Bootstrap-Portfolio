@@ -8,7 +8,7 @@ $brand-border-color: #cccccc;
 $brand-color: #4aaaa5;
 $brand-font-stack: Arial, "Helvetica Neue", Helvetica, sans-serif;
 $brand-font-header: Georgia, Times, "Times New Roman", serif;
-$brand-header-height: 10%;
+$brand-header-height: 15%;
 // $brand-logo-height: 50%;
 
 
@@ -42,22 +42,10 @@ body
     line-height: 1.75;
     margin: 0 0 2px 0;
   }
-/*   a 
-  {
-    img 
-    {
-      margin: 1% 0;
-    }
-  } */
   footer 
   {
     border: none;
   }
-/*   .profile-img 
-  {
-    float: left;
-    margin: 2% 2% 2% 2%;
-  } */
   .brand-custom 
   {
     background-color: $brand-header-bg-color;
@@ -72,17 +60,12 @@ body
     text-align: center;
     background: $brand-color;
     margin: 0;
-    padding: 1.5% 1.5%;
+    padding: 2% 2%;
   }
-  .row-spacer 
-  {
-    margin: 20px 0;
-  }
-/*   .profile-img
-  {
-    max-width: 90%;
-    height: auto;
-  } */
+  // .row-spacer 
+  // {
+  //   margin: 20px 0;
+  // }
   .card-body h2 
   {
       font-size: 1.5em;
@@ -115,33 +98,9 @@ body
     }
     /* caption_text styles the "text over image" caption on top of each portfolio image */
   .caption-text {
-      /* position: absolute;
-    z-index: 2;  have caption text appear over the image 
-      left: 1%;
-      margin: 0 1 auto;
-      text-align: center;
-      top: 70%; */
-  /*    position: absolute;
-      top: 60%;
-      font-size: 100%;*/
-     // left: 6%;
-     // height: 20%;
-    //  width: inherit;
-   //   text-align: center;
-  //    left: 50%;
- //     background-color: #4aaaa5;
-/*       margin: 0;
-      padding: 2% 2%; */
-      // width: inherit;
-      //width: 80%;
-  /*    width: 89%;
-      height: 15%;
-      padding: 10px;
-      font-size: 1.2em;*/
       color: $brand-color;
       font-weight: bold;
       text-shadow: 1px 1px black;
-  //    font-weight: 200; 
   }
     #media_links {
       position: relative;
