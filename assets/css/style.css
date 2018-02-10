@@ -36,6 +36,9 @@ body {
     background: #4aaaa5;
     margin: 0;
     padding: 2% 2%; }
+  body .brand-btn {
+    background-color: #4aaaa5;
+    border: none; }
   body .card-body h2 {
     font-size: 1.5em;
     font-weight: bold; }

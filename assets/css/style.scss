@@ -62,10 +62,11 @@ body
     margin: 0;
     padding: 2% 2%;
   }
-  // .row-spacer 
-  // {
-  //   margin: 20px 0;
-  // }
+  .brand-btn {
+    background-color: $brand-color;
+    border: none;
+  }
+
   .card-body h2 
   {
       font-size: 1.5em;
